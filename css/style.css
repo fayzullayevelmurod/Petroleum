@@ -13,7 +13,7 @@ html {
 header {
   background-color: #217346;
 }
-header .navbar-brand {
+header .navbar_brand {
   color: rgb(255, 255, 255);
   font-family: "Roboto", sans-serif;
   font-size: 18px;
@@ -22,9 +22,7 @@ header .navbar-brand {
   letter-spacing: 0%;
   text-align: left;
   text-transform: uppercase;
-}
-header .navbar-brand:hover {
-  color: #fff;
+  text-decoration: none !important;
 }
 header .navbar-nav .nav-link {
   padding: 20px 25px;
