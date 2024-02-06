@@ -12,6 +12,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./fonts/SourceSansPro/stylesheet.css">
     <!-- fonts -->
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -19,8 +23,8 @@
 </head>
 <body>
     <!-- header -->
-    <header>
-        <nav class="navbar navbar-expand-lg">
+    <header class="position-absolute w-100 py-3 py-lg-0 border-bottom">
+        <nav class="navbar navbar-expand-lg p-0">
             <div class="container">
               <a class="navbar-brand" href="#">Petroleum Office</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,7 +33,7 @@
               <div class="ms-auto navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">
+                    <a class="nav-link" href="#">
                         Download
                     </a>
                   </li>
@@ -39,17 +43,17 @@
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link">
+                    <a class="nav-link" href="#">
                         Functions
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link">
+                    <a class="nav-link" href="#">
                         Unit Converter
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link">
+                    <a class="nav-link" href="#">
                         Documentation
                     </a>
                   </li>
@@ -59,6 +63,455 @@
         </nav>
     </header>
     <!-- header -->
+
+    <!-- home -->
+    <section class="home d-flex align-items-center justify-content-center">
+      <div class="container d-flex align-items-center justify-content-center">
+        <div class="home_text">
+          <h1>
+            Petroleum Office
+          </h1>
+          <p>
+            Excel Addin for Petroleum Engineers 
+          </p>
+          <a class="home_btn" href="#">
+            <img src="./images/icons/down_icon.svg" alt="">
+            Get Free Trial
+          </a>
+          <a class="home_scroll" href="#excel_function">
+            More Info
+            <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M9.35747 14.3111L2.52509 7.47871C2.19557 7.14919 2.19557 6.61496 2.52509 6.28547L3.32198 5.48859C3.65094 5.15963 4.18408 5.159 4.51381 5.48718L9.9541 10.902L15.3944 5.48718C15.7241 5.159 16.2572 5.15963 16.5862 5.48859L17.3831 6.28547C17.7126 6.61499 17.7126 7.14923 17.3831 7.47871L10.5507 14.3111C10.2212 14.6406 9.68698 14.6406 9.35747 14.3111Z" fill="#A3B1BF"/>
+            </svg>  
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- home -->
+
+    <!-- excel_function -->
+    <section class="excel_function" id="excel_function">
+      <div class="container">
+        <h3 class="text-center mx-auto">
+          170 Excel Functions for Petroleum Engineering
+        </h3>
+        <p class="text-center mx-auto">
+          Petroleum Office provides a large collection of specialized functions for oil and gas professionals. With these functions you can build powerful, yet easy to read spreadsheets!
+        </p>
+      </div>
+    </section>
+    <!-- excel_function -->
+
+    <!-- excel_block -->
+    <section class="excel_block">
+      <div class="container">
+        <div class="row g-4 excel_block_card_in">
+          <div class="col-12 col-lg-4 flex-column flex-lg-row d-flex align-items-lg-start align-items-center excel_block_card">
+            <img class="w-auto" src="./images/icons/excel_icon.svg" alt="">
+            <div class="excel_block_text d-flex flex-lg-column flex-column align-items-center align-items-lg-start">
+              <h5>
+                Decline Curves
+              </h5>
+              <p class="text-center text-lg-start">
+                Arps decline functions for both rate and
+                cumulative production. Modified
+                hyperbolic and power law exponential
+                production decline curves.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 flex-column flex-lg-row d-flex align-items-lg-start align-items-center excel_block_card">
+            <img src="./images/icons/excel_icon.svg" alt="">
+            <div class="excel_block_text d-flex flex-lg-column flex-column align-items-center align-items-lg-start">
+              <h5>
+                Well Productivity
+              </h5>
+              <p class="text-center text-lg-start">
+                Productivity indexes and flow equations
+                for oil and gas, vertical and horizontal
+                wells, steady state, pseudosteady state
+                and transient flow conditions.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 flex-column flex-lg-row d-flex align-items-lg-start align-items-center excel_block_card">
+            <img src="./images/icons/excel_icon.svg" alt="">
+            <div class="excel_block_text d-flex flex-lg-column flex-column align-items-center align-items-lg-start">
+              <h5>
+                Pipe Flow Performance
+              </h5>
+              <p class="text-center text-lg-start">
+                Pressure drop calculation for single
+                phase, oil and gas flows. Popular
+                correlations for multiphase pipe flow:
+                Hagedorn and Brown, Beggs and Brill,
+                Gray.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 flex-column flex-lg-row d-flex align-items-lg-start align-items-center excel_block_card">
+            <img src="./images/icons/excel_icon.svg" alt="">
+            <div class="excel_block_text d-flex flex-lg-column flex-column align-items-center align-items-lg-start">
+              <h5>
+                PVT Modeling
+              </h5>
+              <p class="text-center text-lg-start">
+                Common correlations for oil, gas and
+                water properties: bubble point pressure,
+                formation volume factor, viscosity,
+                compressibility and more.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 flex-column flex-lg-row d-flex align-items-lg-start align-items-center excel_block_card">
+            <img src="./images/icons/excel_icon.svg" alt="">
+            <div class="excel_block_text d-flex flex-lg-column flex-column align-items-center align-items-lg-start">
+              <h5>
+                Reservoir Rock Properties
+              </h5>
+              <p class="text-center text-lg-start">
+                Corey and LET type curves. Honarpour
+                and Ibrahim-Koederitz correlations for
+                predicting relative permeability in
+                different fluid systems and reservoir
+                types.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 flex-column flex-lg-row d-flex align-items-lg-start align-items-center excel_block_card">
+            <img src="./images/icons/excel_icon.svg" alt="">
+            <div class="excel_block_text d-flex flex-lg-column flex-column align-items-center align-items-lg-start">
+              <h5>
+                Utility Functions
+              </h5>
+              <p class="text-center text-lg-start">
+                Linear and cubic splines allows you
+                easily interpolate, differentiate and
+                integrate tabulated data. Unit converter
+                function has more than 1500 units.
+              </p>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="d-flex align-items-center justify-content-center excel_block_btn">
+          <img src="./images/icons/next_btn.svg" alt="">
+          Browse the full list
+        </a>
+      </div>
+    </section>
+    <!-- excel_block -->
+
+    <!-- excel_function -->
+    <section class="excel_function excel_function_two">
+      <div class="container">
+        <h3 class="text-center mx-auto">
+          How Does Petroleum Office Work?
+        </h3>
+        <p class="text-center mx-auto">
+          Petroleum Office is an addin that integrates a ribbon tab into the Excel window, giving you easy
+          access to the included functions and tools.
+        </p>
+      </div>
+    </section>
+    <!-- excel_function -->
+
+    <!-- excel_cards -->
+    <section class="excel_cards block_white">
+      <div class="container">
+        <div class="row justify-content-center align-items-center g-4">
+          <div class="col-12 col-md-6">
+            <img class="img-fluid" src="./images/card1.png" alt="">
+          </div>
+          <div class="col-12 col-md-6">
+            <h5>
+              Function Library
+            </h5>
+            <p>
+              Each function from addin can be selected from Insert function dialog as well as from ribbon group. All functions are organized by categories for easy navigation and have a informative description.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="excel_cards block_dark">
+      <div class="container">
+        <div class="row justify-content-center align-items-center  g-4 flex-row-reverse">
+          <div class="col-12 col-md-6">
+            <img class="img-fluid" src="./images/card2.png" alt="">
+          </div>
+          <div class="col-12 col-md-6">
+            <h5>
+              Snippets
+            </h5>
+            <p>
+              Snippet is a block of cells with function name, its arguments, cells for
+              input values, formula with referenced inputs and descriptions. It’s quick
+              and easy way to start using any function!
+            </p>
+            <p>
+              Right click on any cell in your spreadsheet and in context menu find
+              “Insert Snippet”, choose required function, click on the name and you’ve
+              inserted a snippet.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="excel_cards block_white">
+      <div class="container">
+        <div class="row justify-content-center align-items-center g-4">
+          <div class="col-12 col-md-6">
+            <img class="img-fluid" src="./images/card3.png" alt="">
+          </div>
+          <div class="col-12 col-md-6">
+            <h5>
+              Unit Conversion
+            </h5>
+            <p>
+              Unit conversion in Petroleum Office is based on UnitConverter() Excel
+              function which is part on add-in function library. Popular categories of
+              units can be found on ribbon, select cell, choose units and you have
+              your answer. All units button will show the full list of 1500+ registered
+              units. Search and copy required abbreviation.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="excel_cards block_dark">
+      <div class="container">
+        <div class="row justify-content-center align-items-center  g-4 flex-row-reverse">
+          <div class="col-12 col-md-6">
+            <img class="img-fluid" src="./images/card4.png" alt="">
+          </div>
+          <div class="col-12 col-md-6">
+            <h5>
+              Sample Spreadsheets
+            </h5>
+            <p>
+              Another easy way to start is to explore sample spreadsheets.
+            </p>
+            <p>
+              Click on Samples button and select an example spreadsheet from
+              dropdown menu.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="excel_cards block_white">
+      <div class="container">
+        <div class="row justify-content-center align-items-center  g-4">
+          <div class="col-12 col-md-6">
+            <img class="img-fluid" src="./images/card5.png" alt="">
+          </div>
+          <div class="col-12 col-md-6">
+            <h5>
+              File Generator
+            </h5>
+            <p>
+              If you work with text input files for popular simulators, you can save a lot
+              of time, when creating different scenarios for sensitivity or history
+              matching projects.
+            </p>
+            <p>
+              Create a template input file with tokens, fill the table with case names
+              and its parameters. Then use File Generator tool within Toolbox button on
+              the ribbon and it will create case files where each token is substituted by
+              appropriate value from the table. Chances are that you keep the
+              summary of your simulation runs in Excel anyway.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="excel_cards block_dark">
+      <div class="container">
+        <div class="row justify-content-center align-items-center g-4 flex-row-reverse">
+          <div class="col-12 col-md-6">
+            <img class="img-fluid" src="./images/card6.png" alt="">
+          </div>
+          <div class="col-12 col-md-6">
+            <h5>
+              Import ECLIPSE Outputs
+            </h5>
+            <p>
+              This tool allows you to read and load output files from ECLIPSE reservoir
+              simulator directly to Excel.
+            </p>
+            <p>
+              Click on Toolbox button and choose Import Eclipse Results…. Select the
+              cases (.SMSPEC, .FSMSPEC files) you want to import and click Open.
+              Each case will be imported in the current workbook as separate sheet
+              with the name as case file and contain all data vector results in columns.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- excel_cards -->
+
+    <!-- office -->
+    <section class="office">
+      <div class="container">
+        <div class="office_title text-center">
+          <h4>
+            Why Petroleum Office?
+          </h4>
+          <p class="mx-auto">
+            Instead of creating a stand-alone petroleum engineering application, we decided to build upon the
+            strengths of Excel and make it better tool for petroleum engineering calculation. Here’s how and why.
+          </p>
+        </div>
+        <div class="row gy-3">
+          <div class="col-12 col-lg-4 flex-column flex-lg-row d-flex align-items-lg-start align-items-center office_card">
+            <img src="./images/icons/office_icon1.svg" alt="">
+            <div class="office_text d-flex flex-lg-column flex-column align-items-center align-items-lg-start">
+              <h5>
+                Ease of Use
+              </h5>
+              <p class="text-center text-lg-start">
+                Many say that Excel is a #1 tool for
+                engineers. Everybody knows how to
+                use it, hence the learning curve for
+                addin is very shallow.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 flex-column flex-lg-row d-flex align-items-lg-start align-items-center office_card">
+            <img src="./images/icons/office_icon2.svg" alt="">
+            <div class="office_text d-flex flex-lg-column flex-column align-items-center align-items-lg-start">
+              <h5>
+                Simplicity
+              </h5>
+              <p class="text-center text-lg-start">
+                We are fans of simple calculations
+                that allow the engineer to get a 90%
+                answer quickly rather than a
+                laborious effort to get a supposed
+                100% outcome.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 flex-column flex-lg-row d-flex align-items-lg-start align-items-center office_card">
+            <img src="./images/icons/office_icon3.svg" alt="">
+            <div class="office_text d-flex flex-lg-column flex-column align-items-center align-items-lg-start">
+              <h5>
+                Readability
+              </h5>
+              <p class="text-center text-lg-start">
+                You only create spreadsheet once.
+                You read and edit it many times.
+                Meaningful function names instead
+                of complex formulas will keep your
+                spreadsheets concise.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 flex-column flex-lg-row d-flex align-items-lg-start align-items-center office_card">
+            <img src="./images/icons/office_icon4.svg" alt="">
+            <div class="office_text d-flex flex-lg-column flex-column align-items-center align-items-lg-start">
+              <h5>
+                Consistency
+              </h5>
+              <p class="text-center text-lg-start">
+                Consistent result across all
+                spreadsheet models. Reduce errors
+                and eliminate typos.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 flex-column flex-lg-row d-flex align-items-lg-start align-items-center office_card">
+            <img src="./images/icons/office_icon5.svg" alt="">
+            <div class="office_text d-flex flex-lg-column flex-column align-items-center align-items-lg-start">
+              <h5>
+                Productivity
+              </h5>
+              <p class="text-center text-lg-start">
+                Keep all related inputs and
+                calculations in one place. Less
+                copying and pasting between
+                applications.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 flex-column flex-lg-row d-flex align-items-lg-start align-items-center office_card">
+            <img src="./images/icons/office_icon6.svg" alt="">
+            <div class="office_text d-flex flex-lg-column flex-column align-items-center align-items-lg-start">
+              <h5>
+                Save time
+              </h5>
+              <p class="text-center text-lg-start">
+                Unit converter, file generator,
+                snippets will save you a lot of time.
+                Not to mention that coding VBA
+                functions could be hard and time
+                consuming.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- office -->
+
+    <!-- download -->
+    <section class="download">
+      <div class="container text-center">
+        <h5>
+          Start your trial today!
+        </h5>
+        <a href="#" class="d-flex align-items-center justify-content-center mx-auto">
+          <img src="./images/icons/down_icon.svg" alt="">
+          Download Petroleum Office
+        </a>
+      </div>
+    </section>
+    <!-- download -->
+
+    <!-- footer -->
+    <footer>
+      <nav class="navbar navbar-expand-lg p-0">
+          <div class="container">
+            <p>
+              Copyright © 2023 Team 76 Ltd. All rights reserved.
+            </p>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="ms-auto navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    Contact
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    FAQ
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    Legal Notice
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    Change Log
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </nav>
+  </footer>
+    <!-- footer -->
 
     <!-- bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

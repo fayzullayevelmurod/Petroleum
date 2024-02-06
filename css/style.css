@@ -6,6 +6,10 @@
   text-decoration: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 header {
   background-color: #217346;
 }
@@ -19,7 +23,11 @@ header .navbar-brand {
   text-align: left;
   text-transform: uppercase;
 }
+header .navbar-brand:hover {
+  color: #fff;
+}
 header .navbar-nav .nav-link {
+  padding: 20px 25px;
   color: rgb(255, 255, 255);
   font-family: "Roboto", sans-serif;
   font-size: 15px;
@@ -28,4 +36,347 @@ header .navbar-nav .nav-link {
   letter-spacing: 0%;
   text-align: left;
   text-transform: uppercase;
+  transition: 0.3s ease;
+}
+header .navbar-nav .nav-link:hover {
+  background-color: #115630;
+}
+
+.navbar-toggler {
+  padding: 2px 4px !important;
+  border-radius: 3px;
+  background: rgb(23, 80, 49) !important;
+}
+.navbar-toggler span {
+  background-image: #fff !important;
+}
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+.home {
+  height: 100dvh;
+  background-color: #217346;
+}
+.home .home_text h1 {
+  color: rgb(255, 255, 255);
+  font-family: "Lato", sans-serif;
+  font-size: 76px;
+  font-weight: 800;
+  line-height: 114px;
+  letter-spacing: 4.2px;
+  text-align: center;
+  margin-bottom: 17px;
+}
+.home .home_text p {
+  color: rgb(163, 177, 191);
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 58.8px;
+  letter-spacing: -0.9px;
+  text-align: center;
+  margin-bottom: 52px;
+}
+.home .home_text .home_btn {
+  margin: 0 auto;
+  width: 297px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.4px;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid rgb(255, 255, 255);
+  text-decoration: none !important;
+  transition: 0.3s ease;
+}
+.home .home_text .home_btn:hover {
+  background-color: #115630;
+}
+.home .home_text .home_scroll {
+  margin-top: 53px;
+  text-decoration: none !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  color: rgb(163, 177, 191);
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  transition: 0.3s ease;
+}
+.home .home_text .home_scroll svg path {
+  transition: 0.3s ease;
+}
+.home .home_text .home_scroll:hover {
+  color: #fff;
+}
+.home .home_text .home_scroll:hover svg path {
+  fill: #fff;
+}
+
+.excel_function {
+  padding: 24px 0;
+  background: rgb(237, 236, 236);
+}
+.excel_function p {
+  max-width: 854px;
+  color: rgb(115, 135, 156);
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30.6px;
+  letter-spacing: 0.1px;
+  text-align: center;
+}
+.excel_function h3 {
+  max-width: 497px;
+  margin-bottom: 28px;
+  color: rgb(80, 106, 133);
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0%;
+}
+
+.excel_function_two h3 {
+  max-width: 100%;
+}
+
+.excel_block {
+  padding: 20px 0;
+}
+.excel_block .excel_block_card_in {
+  margin-bottom: 30px;
+}
+.excel_block .excel_block_card {
+  gap: 21px;
+}
+.excel_block .excel_block_card h5 {
+  color: rgb(33, 115, 70);
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.8px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 18px;
+}
+.excel_block .excel_block_card p {
+  color: rgb(122, 122, 122);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.excel_block .excel_block_btn {
+  margin: 0 auto;
+  text-decoration: none !important;
+  width: 354px;
+  height: 63px;
+  display: flex;
+  gap: 12px;
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.4px;
+  text-align: center;
+  text-transform: uppercase;
+  background: rgb(33, 115, 70);
+  transition: 0.3s ease;
+}
+.excel_block .excel_block_btn:hover {
+  background-color: #115630;
+}
+
+.excel_cards img {
+  width: 100%;
+}
+.excel_cards h5 {
+  color: rgb(80, 106, 133);
+  font-family: "Lato", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.excel_cards p {
+  color: rgb(65, 91, 116);
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25.5px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.block_white {
+  padding: 50px 0;
+}
+
+.block_dark {
+  padding: 50px 0;
+  background: rgb(237, 236, 236);
+}
+
+.office {
+  padding: 40px 0 24px 0;
+}
+.office .office_title {
+  margin-bottom: 57px;
+}
+.office .office_title h4 {
+  color: rgb(80, 106, 133);
+  font-family: "Lato", sans-serif;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0%;
+  margin-bottom: 32px;
+}
+.office .office_title p {
+  max-width: 714px;
+  color: rgb(65, 91, 116);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+.office .office_card {
+  gap: 30px;
+}
+.office .office_card h5 {
+  color: rgb(80, 106, 133);
+  font-family: "Lato", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33.6px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.office .office_card p {
+  color: rgb(80, 106, 133);
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28.9px;
+  letter-spacing: 0.2px;
+  text-align: left;
+}
+
+.download {
+  padding: 30px 0;
+  background-color: #217346;
+}
+.download h5 {
+  margin-bottom: 40px;
+  color: rgb(255, 255, 255);
+  font-family: Lato;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0%;
+}
+.download a {
+  width: 432px;
+  height: 79px;
+  text-decoration: none !important;
+  gap: 15px;
+  color: rgb(255, 255, 255);
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.3px;
+  text-align: center;
+  text-transform: uppercase;
+  border: 3px solid rgb(255, 255, 255);
+  transition: 0.3s ease;
+}
+.download a:hover {
+  background-color: #115630;
+}
+
+footer {
+  padding: 25px 0;
+  background: rgb(23, 80, 49);
+}
+footer .navbar-toggler {
+  padding: 2px 4px !important;
+  border-radius: 3px;
+  background: rgb(23, 80, 49) !important;
+}
+footer .navbar-toggler span {
+  background-image: #fff !important;
+}
+footer .navbar-toggler:focus {
+  box-shadow: none !important;
+}
+footer p {
+  color: rgb(255, 255, 255);
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 0;
+}
+footer .nav-link {
+  margin: 0 10px;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  transition: 0.3s ease;
+}
+footer .nav-link:hover {
+  color: #217346;
+}
+
+@media only screen and (max-width: 768px) {
+  .home {
+    height: auto;
+    padding: 150px 0;
+  }
+  .home .home_text h1 {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 57.6px;
+    letter-spacing: 1.6px;
+    margin-bottom: 26px;
+  }
+  .home .home_text p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: -0.9px;
+  }
+  .download a {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */

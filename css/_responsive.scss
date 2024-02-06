@@ -1,0 +1,29 @@
+@media only screen and (max-width: 768px) {
+    .home {
+        height: auto;
+        padding: 150px 0;
+
+        .home_text {
+            h1 {
+                font-size: 48px;
+                font-weight: 800;
+                line-height: 57.6px;
+                letter-spacing: 1.6px;
+                margin-bottom: 26px;
+            }
+    
+            p {
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 42px;
+                letter-spacing: -0.9px;
+            }
+        }
+    }
+
+    .download {
+        a {
+            width: 100%;
+        }
+    }
+}
